@@ -59,3 +59,15 @@ Código para o modelo quântico com 1000 trajetórias paralelizado e o modelo se
 
 Dados: qpe_quantum_ntraj1000.csv e qpe_semiclassical.csv
 
+### Geração de estados de Fock
+
+A partir do Algoritmo Quântico de Estimação de Fase podemos de forma não destrutiva medir e associar o número de fótons de campo eletromagnético com distribuição coerente aprisionado em um ressonador a uma fase binária. Em seguida, utilizando o Algoritmo Quântico de Amplificação de Amplitude, amplificamos a probabilidade associada à fase binária desejada como o estado a ser gerado. 
+
+Código: v2_QPE_plus_QAA.ipynb
+
+### Tomografia via QPE
+
+Ao realizar um número suficiente de rodadas da QPE, é possível obter a distribuição do estado do campo de forma não destrutiva. Assim, associamos a função de Wigner à distribuição do estado aprisionado no ressonador, permitindo obter a tomografia desse estado por meio de uma técnica alternativa às usuais.
+
+Código: v8_qpe_wigner.ipynb
+
